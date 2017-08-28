@@ -36,6 +36,7 @@
 
 #include "WiFiClient.h"
 #include "WiFiServer.h"
+#include "WiFiMesh.h"
 #include "WiFiUdp.h"
 
 class WiFiClass : public WiFiGenericClass, public WiFiSTAClass, public WiFiScanClass, public WiFiAPClass
